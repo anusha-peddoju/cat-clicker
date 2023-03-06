@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+ 
+}
+html {
+  height: 1000px;
+}
+
+body {
+  text-align: center;
+  margin: 0px;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+#app {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header {
+  background-color: rgb(255, 145, 0);
+  margin: 0px;
+}
+
+h1, h3 {
+  margin: 0px;
+}
+
+.main {
+  background-color: #D6BA93;
+  height: 100%;
+  display: flex;
+}
+
+img {
+  width: 50%;
+  cursor: pointer;
+}
+
+.navbar {
+  background-color: rgb(242, 245, 204);
+  width: 20%;
+}
+
+.display {
+  width: 80%;
+ 
+  padding-top: 50px;
+}
+
+.total{
+  padding:40px;
+  display:flex;
+}
+
+.cat-names {
+  list-style-type: none;
+}
+
+.cats {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 70%;
+  margin-bottom: 5px;
+  height: 40px;
+  padding:10px;
+  background-color: rgb(51, 51, 54);
+  color:white;
+  border-radius:10px;
+  margin-top:20px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.form-unit {
+  display: flex;
+  margin-top:20px;
+  margin-right: auto;
+  
+}
+
+.form-btn {
+  width: 40%;
+  margin: 10px;
+ 
+}
+
+.form-label {
+  margin: 0px 10px;
+  border-radius: 30px;
+  height:30px;
+  margin-left: 30px;
+}
+
+.cards-list1 {
+  display: flex;
+  
+}
+
+.card {
+  width: 175px;
+  float: left;
+  margin:40px;
+ 
+
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 9px;
+  cursor: pointer;
+
+}
+
+.card-name{
+  font-size: 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top:10px;
+}
+
+.card-clicks{
+
+  font-size: 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+
+
+@media only screen and (max-width: 850px) {
+  button {
+      width: 80%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  img {
+      width: 80%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .main {
+      flex-direction: column;
+  }
+
+  .display, .navbar {
+      width: 100%;
+  }
+}
+
